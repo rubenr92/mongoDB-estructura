@@ -29,7 +29,8 @@
        "montura",
        "color montura",
        "precio",
-       "empleado_venta"
+       "empleado_venta",
+       "proveedor"
     ],
     "properties": {
         "_id": { "bsonType": "objectId" },
@@ -41,6 +42,7 @@
         "montura":{ "bsonType": "string" },
         "color montura":{ "bsonType": "string" },
         "precio": { "bsonType": "string" },
+        "proveedor": { "bsonType": "objectId" },
         "comprador":{ "bsonType": "objectId" },
         "empleado_venta": { "bsonType": "objectId" }
     }
