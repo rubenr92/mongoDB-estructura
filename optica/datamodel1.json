@@ -1,0 +1,36 @@
+
+{"proveedor":{
+    "_id": "objectId" ,
+    "nombre": "string" ,
+    "direccion": "string" ,
+    "tlf": "string" ,
+    "fax": "number" ,
+    "nif": "string"
+},
+"gafas":
+    {
+        "_id":"objectId" ,
+        "marca": "string" ,
+        "graduacion1": "float" ,
+        "graduacion2": "float" ,
+        "color1": "string" ,
+        "color2":"string" ,
+        "montura":"string" ,
+        "color montura":"string" ,
+        "precio": "string" ,
+        "proveedor":"objectId" ,
+        "empleado_venta": "objectId"
+    },
+"cliente":
+    {
+        "_id":"objectId" ,
+        "nombre":"string" ,
+        "direccion":"string" ,
+        "tlf":"string" ,
+        "nif": "string" ,
+        "correo":"string" ,
+        "fecha_registro":"date" ,
+        "recomendacion":"objectId",
+        "compras":"[{marca:string, graduacion:float, color:string, montura:string, precio:float}]"
+    }
+}

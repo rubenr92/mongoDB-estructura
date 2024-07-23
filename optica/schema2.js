@@ -29,7 +29,6 @@
        "montura",
        "color montura",
        "precio",
-       "empleado_venta",
        "proveedor"
     ],
     "properties": {
@@ -43,7 +42,9 @@
         "color montura":{ "bsonType": "string" },
         "precio": { "bsonType": "string" },
         "proveedor": { "bsonType": "objectId" },
-        "empleado_venta": { "bsonType": "objectId" }
+        "empleado_venta": { "bsonType": "string" },
+        "compradores":{"bsonType": "array", 
+                        "items":"objectId"}
     }
   }
 {
@@ -66,8 +67,6 @@
         "nif": { "bsonType": "string" },
         "correo": { "bsonType": "string" },
         "fecha_registro": { "bsonType": "" },
-        "recomendacion":{ "bsonType": "objectId" },
-        "compras":{"bsonType": "array", 
-                    "items":"objectId"}
+        "recomendacion":{ "bsonType": "objectId" }
     }
   }
